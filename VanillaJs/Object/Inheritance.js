@@ -1,5 +1,5 @@
-(function(){
-  const Parent = function(name){
+(function () {
+  const Parent = function (name) {
     this.name = name
     this.colors = ['red', 'blue', 'yello']
   }
