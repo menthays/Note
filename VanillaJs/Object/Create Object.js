@@ -14,7 +14,7 @@
     //   console.log(this.name)
     // }
 
-    // do not use arrow function here with 'this.name' since 'this' refer to {} 
+    // do not use arrow function here with 'this.name' since 'this' refer to {}
     return o
   }
 
@@ -91,7 +91,7 @@
   // ### Summary
   // Instanceof Person, good
   // Share the same public function, good
-  // Use hasOwnProperty() and in to distinct whether the 
+  // Use hasOwnProperty() and in to distinct whether the
   // property belongs to the instance itself or proto
 
   // But there is an important problem
@@ -126,5 +126,4 @@
   console.log('personA\'s friends: ' + personA.friends) // ['Alice', 'Ben']
   personB.friends.push("I am B's friends")
   console.log('personA\'s friends: ' + personA.friends) // still ['Alice', 'Ben'']
-  // Reference Types will be shared too!
 }());
